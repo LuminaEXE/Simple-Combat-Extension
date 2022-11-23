@@ -1,0 +1,12 @@
+name: CosntKB
+version: '${project.version}'
+main: vanesa.cosntkb.sex
+description: cosnistant knockbakc idfk
+
+commands:
+  velocity:
+    description: changes the velocity
+    usage: /<command> <amplifier>
+  playSound:
+    description: plays a sound
+    usage: /<command> <sound> <pitch> <volume>
