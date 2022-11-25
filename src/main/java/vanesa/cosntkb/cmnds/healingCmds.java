@@ -10,11 +10,10 @@ public class healingCmds implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         Player player = (Player)sender;
         if(player.isOp()){
-            if(command.getName().equalsIgnoreCase("playSound")) {
+            if(command.getName().equalsIgnoreCase("setHealth")) {
                 if(args.length == 1)
                     player.setHealth(Double.parseDouble(args[0]));
             }
-
         }
         return true;
     }

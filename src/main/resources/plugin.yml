@@ -7,6 +7,6 @@ commands:
   velocity:
     description: changes the velocity
     usage: /<command> <amplifier>
-  playSound:
+  setHealth:
     description: plays a sound
     usage: /<command> <sound> <pitch> <volume>

@@ -17,8 +17,9 @@ public final class sex extends JavaPlugin {
         pm.registerEvents(new doubleJump(this), this);
         pm.registerEvents(new healing(this),this);
 
+
         this.getCommand("velocity").setExecutor(new velocity());
-        this.getCommand("playSound").setExecutor(new healingCmds());
+        this.getCommand("setHealth").setExecutor(new healingCmds());
     }
 
     @Override
